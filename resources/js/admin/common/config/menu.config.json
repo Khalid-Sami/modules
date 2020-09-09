@@ -1,0 +1,51 @@
+{
+  "header": {
+    "self": {},
+    "items": []
+  },
+  "aside": {
+    "self": {},
+    "items": [
+      {
+        "title": "Dashboard",
+        "root": true,
+        "icon": "flaticon2-architecture-and-city",
+        "page": "dashboard",
+        "translate": "MENU.DASHBOARD",
+        "bullet": "dot"
+      },
+      {
+        "title": "Customers",
+        "root": true,
+        "bullet": "dot",
+        "icon": "flaticon2-digital-marketing",
+        "submenu": [
+            {
+                "title": "Index Customer",
+                "page": "customers"
+            },
+            {
+                "title": "Create Customer",
+                "page": "create/customer"
+            }
+            ]
+      },
+        {
+            "title": "users",
+            "root": true,
+            "bullet": "dot",
+            "icon": "flaticon2-digital-marketing",
+            "submenu": [
+                {
+                    "title": "All",
+                    "page": "users"
+                },
+                {
+                    "title": "Create",
+                    "page": "users/create"
+                }
+            ]
+        }
+    ]
+  }
+}

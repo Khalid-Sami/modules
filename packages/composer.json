@@ -1,0 +1,19 @@
+{
+    "name": "khalid/packages",
+    "description": "This package to allow you to create your packages quickly and easily by specific commands",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalid S. Sabbah",
+            "email": "khalidsami.se@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Packages\\": "//"
+        }
+    }
+}
